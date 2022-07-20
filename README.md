@@ -8,6 +8,8 @@ I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doi
 In a compiled language, the target machine can read the source code without the help of another program, unlike in an interpreted language, which needs a program to understand its instructions.
 
 2- The Java language is both compiled and interpreted.
+   VIEWED VIDEOS:
+   (Video Source)[https://www.youtube.com/watch?v=G81hoJTvQVg]
 
 3-  pseudocode excersice
   1. START
