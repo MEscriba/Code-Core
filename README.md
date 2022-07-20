@@ -26,6 +26,16 @@ In a compiled language, the target machine can read the source code without the 
 [Video Source](https://www.youtube.com/watch?v=bUWCD45qniA)
 
 
+**Week challenges (Wednesday)** 
+
+1- My date birth binary code (excersice):
+
+date birth: 26-06-1984
+
+binary code date birth: 11010-110-11111000000
+
+
+
 
 
 
