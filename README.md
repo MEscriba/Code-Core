@@ -9,6 +9,15 @@ In a compiled language, the target machine can read the source code without the 
 
 2- The Java language is both compiled and interpreted.
 
+3-  pseudocode excersice
+  1. START
+  2. valueDolar <-- 0.3
+  3. bitcoinsuser <-- GET
+  4. FUNCTION <-- valueDolar * bitcoinuser
+  5. PRINT FUNCTION
+  6. END
+
+
 
 
 
