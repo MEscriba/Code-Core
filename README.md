@@ -9,7 +9,9 @@ In a compiled language, the target machine can read the source code without the 
 
 2- The Java language is both compiled and interpreted.
    VIEWED VIDEOS:
-   (Video Source)[https://www.youtube.com/watch?v=G81hoJTvQVg]
+   
+   [Video Source](https://www.youtube.com/watch?v=G81hoJTvQVg)
+   
 
 3-  pseudocode excersice
   1. START
@@ -19,7 +21,9 @@ In a compiled language, the target machine can read the source code without the 
   5. PRINT FUNCTION
   6. END
 
+4- I learn about low-level and high-level lenguages with:
 
+[Video Source](https://www.youtube.com/watch?v=bUWCD45qniA)
 
 
 
