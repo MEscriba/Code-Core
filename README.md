@@ -15,8 +15,8 @@ In a compiled language, the target machine can read the source code without the 
 
 3-  pseudocode excersice
   1. START
-  2. valueDolar <-- 0.3
-  3. bitcoinsuser <-- GET
+  2. valueDolar <-- 0.3 //ahi puse un valor ficticio como que un dolar vale 0.3 bitcoins
+  3. bitcoinsuser <-- GET // aca el usuario ingresaria la cantidad de bitcoins que quiere convertir
   4. FUNCTION <-- valueDolar * bitcoinuser
   5. PRINT FUNCTION
   6. END
