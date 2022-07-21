@@ -80,6 +80,7 @@ Create a program that displays your name
               la $a0, message
               syscall
 
+**Week challenges (Thursday)**
 
 
 
