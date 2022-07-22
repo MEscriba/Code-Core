@@ -80,15 +80,27 @@ excersice 2:
 Create a program that displays your name
 
 .data
+
         message: .asciiz "\nMartin Escriba Bab\n"
+	
   .text
+  
         main:
+	
               li $v0, 4
               la $a0, message
               syscall
 
 **Week challenges (Thursday)**
 
+1- print numbers - excersice
+
+let number;
+for (let i=0, i<100, i++){
+if (number % 2==0){
+console.log(number)
+}
+}
 
 
 
