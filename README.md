@@ -40,7 +40,9 @@ binary code date birth: 11010-110-11111000000
 excersice 1: 
 
 Create a program that adds any two given numbers provided by the user
+
 .data
+              result: .asciiz "\nEl resultado es: "
 	      number1: .asciiz "\nIngrese el primer numero: "
 	      number2: .asciiz "\nIngrese el segundo numero: "
   .text
@@ -62,11 +64,16 @@ Create a program that adds any two given numbers provided by the user
               syscall
 
               move $t1, $v0
+	      
+              add $t2, $t0, $t1
+
+	      li $v0, 4
+              la $a0, result
+              syscall
 
               li $v0, 1
-              move $a0, $t0
-              syscall
-              
+              move $a0, $t2
+              syscall              
               
 excersice 2:
 
