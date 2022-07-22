@@ -117,6 +117,21 @@ if ((cond = true)) { // la condicion dentro del if la cambiaria por (cond == tru
 }
 ```
 
+3- bad code 2
+```
+let n = 100;
+
+if (n == 100) {
+  console.log('This is a special number!');
+}
+ else if ((n < 1000)&&(n % 10 == 0 )&&(n!=100) {
+  console.log('This number is almost special');
+} 
+else {
+  console.log('Just a regular number');
+}
+```
+
 
 
 <!---
