@@ -103,6 +103,20 @@ console.log(number)
 }
 ```
 
+2- bad code
+
+this is the original code with my comments and improvements:
+
+```
+var cond = false; //es recomendable declarar las variables con let!
+
+if ((cond = true)) { // la condicion dentro del if la cambiaria por (cond == true) quitandole un parentesis y agregandole un =
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```
+
 
 
 <!---
