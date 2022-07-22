@@ -132,7 +132,7 @@ else {
 }
 ```
 
-**link a (JS Bin)[https://jsbin.com/mafowaceyi/edit?js,console]**
+**link a [JS Bin](https://jsbin.com/mafowaceyi/edit?js,console)**
 
 
 
