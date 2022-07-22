@@ -74,11 +74,11 @@ Create a program that adds any two given numbers provided by the user
               li $v0, 1
               move $a0, $t2
               syscall              
-              
+   ```           
 excersice 2:
 
 Create a program that displays your name
-
+```
 .data
 
         message: .asciiz "\nMartin Escriba Bab\n"
@@ -90,18 +90,18 @@ Create a program that displays your name
               li $v0, 4
               la $a0, message
               syscall
-
+```
 **Week challenges (Thursday)**
 
 1- print numbers - excersice
-
+```
 let number;
 for (let i=0, i<100, i++){
 if (number % 2==0){
 console.log(number)
 }
 }
-
+```
 
 
 
