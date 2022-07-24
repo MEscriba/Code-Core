@@ -2,7 +2,7 @@
 
 I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doing!!!
 
-**1 Week challenges**
+**1 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week1)**
 
 
 
