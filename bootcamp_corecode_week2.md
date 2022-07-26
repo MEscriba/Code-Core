@@ -31,3 +31,11 @@ function uniTotal(str) {
   return total;
 
 }
+
+excersice 3:
+
+function getChar(c) {
+
+  return String.fromCharCode(c)
+  
+}
