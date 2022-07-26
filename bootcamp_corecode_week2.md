@@ -39,3 +39,13 @@ function getChar(c) {
   return String.fromCharCode(c)
   
 }
+
+
+excersice 4:
+
+function addBinary(a,b) {
+
+  let suma = (a + b).toString(2);
+  
+  return suma;
+}
