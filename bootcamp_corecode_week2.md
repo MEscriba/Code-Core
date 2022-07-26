@@ -54,3 +54,4 @@ function finalGrade (exam, projects) {
 }
 }
 ```
+**Week challenges (Wednesday)**
