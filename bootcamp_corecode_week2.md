@@ -37,3 +37,20 @@ function addBinary(a,b) {
   return suma;
 }
 ```
+excersice 5:
+```
+function finalGrade (exam, projects) {
+  if (exam>=90 && projects>=10){
+  return 100;// final grade
+}
+   else if (exam>=75 && projects>=5 ){
+  return 90;// final grade
+}
+    else if (exam>=50 && projects>=2 ){
+  return 75;// final grade
+}
+      else {
+  return 0;// final grade
+}
+}
+```
