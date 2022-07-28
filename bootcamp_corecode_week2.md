@@ -23,11 +23,11 @@ function uniTotal(str) {
   }
   return total;
 }
+```
 
 **Week challenges (Wednesday)**
 excersice 1: learn about html, syntax, tags, dom, etc
 
-```
 excersice 2:
 ```
 function getChar(c) {
