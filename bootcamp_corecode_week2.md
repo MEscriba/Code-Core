@@ -55,3 +55,15 @@ function finalGrade (exam, projects) {
 }
 ```
 **Week challenges (Wednesday)**
+ 
+ excersice 1:
+ ```
+ function getChar(c) {
+  return String.fromCharCode(c)
+}
+```
+
+excersice 2:
+```
+
+```
