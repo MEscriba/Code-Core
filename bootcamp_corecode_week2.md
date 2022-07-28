@@ -63,7 +63,11 @@ function finalGrade (exam, projects) {
  
  excersice 1:
  ```
+ function remove(s){
  
+  return s.replace(/!+$/, '');
+}
+
 ```
 
 excersice 2:
