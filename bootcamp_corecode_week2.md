@@ -23,21 +23,25 @@ function uniTotal(str) {
   }
   return total;
 }
+
+**Week challenges (Wednesday)**
+excersice 1: learn about html, syntax, tags, dom, etc
+
 ```
-excersice 3:
+excersice 2:
 ```
 function getChar(c) {
   return String.fromCharCode(c)  
 }
 ```
-excersice 4:
+excersice 3:
 ```
 function addBinary(a,b) {
   let suma = (a + b).toString(2);  
   return suma;
 }
 ```
-excersice 5:
+excersice 4:
 ```
 function finalGrade (exam, projects) {
   if (exam>90 || projects>10){
@@ -54,13 +58,11 @@ function finalGrade (exam, projects) {
 }
 }
 ```
-**Week challenges (Wednesday)**
+**Week challenges (Thursday)**
  
  excersice 1:
  ```
- function getChar(c) {
-  return String.fromCharCode(c)
-}
+ 
 ```
 
 excersice 2:
