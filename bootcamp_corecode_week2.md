@@ -72,5 +72,9 @@ function finalGrade (exam, projects) {
 
 excersice 2:
 ```
+function shortcut(string) {
+
+  return string.replace(/[aeiou]/g, '');
+}
 
 ```
