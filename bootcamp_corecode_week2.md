@@ -26,6 +26,7 @@ function uniTotal(str) {
 ```
 
 **Week challenges (Wednesday)**
+
 excersice 1: learn about html, syntax, tags, dom, etc
 
 excersice 2:
