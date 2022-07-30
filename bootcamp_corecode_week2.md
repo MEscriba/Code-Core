@@ -92,3 +92,22 @@ const rps = (p1, p2) => {
   else{
   return 'Player 2 won!'};
 };
+
+excercise 4:
+
+```
+function persistence(num) {
+
+  let times = 0;
+  let digits = [];
+  while (num >= 10) {
+    digits = num.toString().split('');
+    num = 1;
+    for (let i = 0; i < digits.length; i++) {
+      num *= digits[i];
+    }
+    times++;
+  }
+  return times; 
+}
+```
