@@ -111,3 +111,14 @@ function persistence(num) {
   return times; 
 }
 ```
+extras excersices:
+
+1- duty free
+```
+let bot = 0;
+function dutyFree(normPrice, discount, hol){
+let result = (normPrice * discount)/100;
+  let reshol = Math.floor(hol/result);
+  return reshol;
+}
+```
