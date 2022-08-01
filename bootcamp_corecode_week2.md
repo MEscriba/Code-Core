@@ -144,3 +144,18 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   return true;
 }
 ```
+
+4- fake binary
+```
+function fakeBin(x) {
+  let resultDigits = '';
+  for (let i = 0; i < x.length; i++) {
+    if (parseInt(x[i]) < 5) {
+      resultDigits = resultDigits + '0';
+    } else {
+      resultDigits = resultDigits + '1';
+    }
+  }
+  return resultDigits;
+}
+```
