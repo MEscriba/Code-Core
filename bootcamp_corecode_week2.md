@@ -122,3 +122,13 @@ let result = (normPrice * discount)/100;
   return reshol;
 }
 ```
+2- twice years old
+
+```
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+
+  let doubleSonAge = sonYearsOld * 2;
+  let ageDiference = dadYearsOld - doubleSonAge;
+  return Math.abs(ageDiference);
+}
+```
