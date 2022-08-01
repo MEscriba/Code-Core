@@ -134,21 +134,13 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 3- valid spacing
 
 ```
-  if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' ') { // como
-     return false;
+ function validSpacing(s) {
+  if (s.length === 0) return true;
+  if (s[0] === ' ' || s[s.length - 1] === ' ') return false;
+  let aSpaces0 = s.split(' ');
+  for (let i = 0, length = aSpaces0.length; i < length; i++) {
+    if (aSpaces0[i] === '') return false;
   }
-  
-  for(let i = 0; i < s.length; i++) {
-    if(s.charAt(i) === ' '){ 
-      if(i != 0 && s.charAt(i-1) === ' ') {
-        return false;
-      }
-      if(i != (s.length - 1) && s.charAt(i+1) === ' ') {
-        return false;
-      }
-    }
-  }
-  
-  return true; 
+  return true;
 }
 ```
