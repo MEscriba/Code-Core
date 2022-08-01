@@ -115,11 +115,10 @@ extras excersices:
 
 1- duty free
 ```
-let bot = 0;
 function dutyFree(normPrice, discount, hol){
 let result = (normPrice * discount)/100;
-  let reshol = Math.floor(hol/result);
-  return reshol;
+  let res = Math.floor(hol/result);
+  return res;
 }
 ```
 2- twice years old
@@ -130,5 +129,26 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   let doubleSonAge = sonYearsOld * 2;
   let ageDiference = dadYearsOld - doubleSonAge;
   return Math.abs(ageDiference);
+}
+```
+3- valid spacing
+
+```
+  if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' ') { // como
+     return false;
+  }
+  
+  for(let i = 0; i < s.length; i++) {
+    if(s.charAt(i) === ' '){ 
+      if(i != 0 && s.charAt(i-1) === ' ') {
+        return false;
+      }
+      if(i != (s.length - 1) && s.charAt(i+1) === ' ') {
+        return false;
+      }
+    }
+  }
+  
+  return true; 
 }
 ```
