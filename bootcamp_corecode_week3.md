@@ -23,6 +23,19 @@ function likes(names) {
 }
 ```
 
+excercise 2: count bits
+```
+var countBits = function(n) {
+  let number = n.toString(2);
+  let binaryOne = 0;
+  for (let i = 0; i < number.lenght; i++){
+    if (number[i] === '1') {
+      binaryOne++;
+  }
+  return binaryOne;
+};
+```
+
 
 
 **Week challenges (Tuesday)**
