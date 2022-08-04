@@ -40,29 +40,12 @@ var countBits = function(n) {
 excercise 3: order with sort, join and split
 
 ```
-function getWordNumber(word) {
-  for (let i = 0; i < word.length; i++) {
-    if (!Number.isNaN(Number(word[i]))) return word[i];
-  }
-}
-
-function cleanUndefined(array) {
-  let result = [];
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] != undefined) result.push(array[i]);
-  }
-  return result;
-}
-
-function order(words) {
-  let sortedArray = [];
-  let wordsArray = words.split(' ');
-  for (let i = 0; i < wordsArray.length; i++) {
-    let wordNumber = getWordNumber(wordsArray[i]);
-    sortedArray[wordNumber] = wordsArray[i];
-  }
-  return cleanUndefined(sortedArray).join(' ');
-}
+function order(words){
+  
+  return words.split(' ').sort(function(a, b){
+      return a.match(/\d/) - b.match(/\d/);
+   }).join(' ');
+} 
 ```
 
 **Week challenges (Tuesday)**
