@@ -47,15 +47,16 @@ function order(words){
    }).join(' ');
 } 
 ```
-excersice 4: Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+
+**Week challenges (Tuesday)**
+
+excersice 1: Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
 ```
 function pigIt(str){
   return str.replace(/(\w)(\w*)(\s|$)/g, "\$2\$1ay\$3")
 }
 ```
-
-**Week challenges (Tuesday)**
-
+excersice 2: Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
 
 ```
 ```
