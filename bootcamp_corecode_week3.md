@@ -59,6 +59,22 @@ function pigIt(str){
 excersice 2: Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
 
 ```
+function duplicateCount(text) {
+  let textArray = text.toLowerCase().split('').sort();
+  let i = 0,
+    result = 0,
+    lastIndexOfChar = 0;
+  while (textArray.length) {
+    lastIndexOfChar = textArray.lastIndexOf(textArray[i]);
+    if (lastIndexOfChar !== i) {
+      i = lastIndexOfChar;
+      result++;
+    }
+    textArray = textArray.slice(++i);
+    i = 0;
+  }
+  return result;
+}
 ```
 
 **Week challenges (Wednesday)**
