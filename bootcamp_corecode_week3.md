@@ -92,9 +92,22 @@ decodeMorse = function(morseCode){
 
 **Week challenges (Wednesday)**
 
+excersice 1: Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return true if the string is valid, and false if it's invalid.
+
 ```
 
 ```
+excersice 2:
+
+```
+
+```
+excersice 3:
+
+```
+
+```
+
 **Week challenges (Thursday)**
  
 
