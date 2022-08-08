@@ -76,6 +76,19 @@ function duplicateCount(text) {
   return result;
 }
 ```
+excersice 3: Decode Morse
+
+```
+decodeMorse = function(morseCode){
+  function decodeMorseLetter(letter) {
+    return MORSE_CODE[letter];
+  }
+  function decodeMorseWord(word) {
+    return word.split(' ').map(decodeMorseLetter).join('');
+  }
+  return morseCode.trim().split('   ').map(decodeMorseWord).join(' ');
+}
+```
 
 **Week challenges (Wednesday)**
 
