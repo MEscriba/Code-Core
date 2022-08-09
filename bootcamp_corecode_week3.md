@@ -105,7 +105,7 @@ function validParentheses(parens) {
   return valid == 0;
 }
 ```
-excersice 2:
+excersice 2: Complete the method/function so that it converts dash/underscore delimited words into camel casing.
 
 ```
 
