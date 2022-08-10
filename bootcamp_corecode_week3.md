@@ -138,5 +138,31 @@ function uniqueInOrder(iterable) {
 ```
 
 **Week challenges (Thursday)**
- 
 
+excersice 1:
+
+```
+function foldArray(array, runs){
+  let newArray = array
+  let finalArray = []
+  for (let i =0; i < runs; i++) {
+    if (i >= 1) {
+      newArray = finalArray
+      finalArray = []
+    }
+    for (let j =0; j < newArray.length/2; j++) {
+      if (j === newArray.length-j-1) {
+        finalArray.push(newArray[j])
+      } else {
+        finalArray.push(newArray[j] + newArray[newArray.length-j-1] )
+      } 
+    }
+  }
+  return finalArray;
+} 
+```
+excersice 2: encrypt this
+
+```
+
+```
