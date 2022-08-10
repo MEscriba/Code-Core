@@ -121,10 +121,20 @@ function toCamelCase(str) {
 }
 
 ```
-excersice 3:
+excersice 3:Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
 
 ```
-
+function uniqueInOrder(iterable) {
+  let result = [];
+  let last;
+  for (let i = 0; i < iterable.length; i++) {
+    if (iterable[i] !== last) {
+      last = iterable[i];
+      result.push(last);
+    }
+  }
+  return result;
+}
 ```
 
 **Week challenges (Thursday)**
