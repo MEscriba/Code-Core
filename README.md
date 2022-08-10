@@ -1,4 +1,9 @@
-- 👋 Hi, I’m @MEscriba
+
+- 👋 Hi, I’m @MEscriba, I'm in love with this new world.
+Although I have done everything professionally, in the IT world I am new.
+I aspire to be the best version of myself, someone happy for what they do and achieve.
+My fundamental pillars: honesty, perseverance, good person.
+
 
 I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doing!!!
 
