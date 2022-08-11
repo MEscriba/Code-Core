@@ -15,6 +15,7 @@ I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doi
 
 **4 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week4)**
 
+**5 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week5)**
 
 
 
