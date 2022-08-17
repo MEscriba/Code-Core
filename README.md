@@ -7,15 +7,15 @@ My fundamental pillars: honesty, perseverance, good person.
 
 I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doing!!!
 
-**1 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week1)**
+**1 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week1.md)**
 
-**2 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week2)**
+**2 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week2.md)**
 
-**3 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week3)**
+**3 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week3.md)**
 
-**4 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week4)**
+**4 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week4.md)**
 
-**5 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week5)**
+**5 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week5.md)**
 
 
 
