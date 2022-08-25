@@ -9,7 +9,7 @@ practice day
 practice day
 
 **Week challenges (Wednesday)**
-Learn about (FP vs OOP) [https://www.youtube.com/watch?v=08CWw_VD45w]
+Learn about [FP vs OOP] (https://www.youtube.com/watch?v=08CWw_VD45w)
 Learn about Fundamental Concepts of Object Oriented Programming
 Read bout OOP
 
