@@ -1,4 +1,4 @@
-**JAVASCRIPT WEEK6**
+**TYPESCRIPT WEEK6**
 
 **Week challenges (Monday)**
 
