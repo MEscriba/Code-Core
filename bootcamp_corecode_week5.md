@@ -15,8 +15,31 @@ Read bout OOP
 
 
 **Week challenges (Thursday)**
-Get started with TypeScript guided exercise, using Typescript
-✨Complete your 3rd Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+how to configure terminal to work with typescript
+
+Generate a tsconfig.json file
+The TypeScript compiler applies default behavior when you compile TypeScript source code. But you can modify the TypeScript compiler options by adding a tsconfig.json file to the root of your TypeScript project folder. This file defines the TypeScript project settings, such as the compiler options and the files that should be included.
+
+You can use the init option of the TypeScript compiler to generate a TSConfig file with default options.
+
+In Visual Studio Code, open a new Terminal window by selecting Terminal > New Terminal.
+
+At the command prompt, enter tsc --init.
+
+Notice that the new tsconfig.json file has been added to the Explorer pane. You might need to refresh the Explorer pane to view the file.
+
+Open the tsconfig.json file in the code editor. You'll see that it has many options, most of which are commented out. Review the description of each enabled option.
+
+In the tsconfig.json file, look for the target option and change it to "ES2015".
+
+Update the tsconfig.json file so that the compiler saves all JavaScript files to a new folder.
+
+a. On the Explorer pane, create a new folder in your project called build.
+b. In the tsconfig.json file, look for the outDir option, remove the comment, and set the parameter to build.
+
+Save the tsconfig.json file.
+
+At the command prompt, enter tsc. This reads the tsconfig.json file and resets the options for the project.
 
 **Excersices**
 
