@@ -19,7 +19,7 @@ I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doi
 
 **6 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week6.md)**
 
-
+**7 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week7.md)**
 
 
 
