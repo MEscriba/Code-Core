@@ -318,32 +318,57 @@ export default class Rational {
 **EXTRA**
 
 Typescript Introduction
+
 Create Folder
+
   $ mkdir <FOLDER_NAME>
+
 Go Into Folder
+  
   $ cd <FOLDER_NAME>
+
 Get Out Of Folder
-  $ cd ..
+ 
+ $ cd ..
+
 Clean Terminal (Windows)
-  $ cls
+ 
+ $ cls
+
 Clean Terminal (Linux & Mac)
+  
   $ clean
 Install Node
 Here is the link to install node
 
 Check Node Version
-  $ node --version
+ 
+ $ node --version
+
 Check npm Version
+  
   $ npm --version
+
 Start npm Project
+  
   $ npm init --y
+
 Install Typescript (local)
+  
   $ npm install typescript
+
 Compile Typescript File
+  
   $ npx tsc <FILE_NAME>.ts
+
 Install All Node Packages
+  
   $ npm install
+
 Node RPL State
+  
   $ node
+
 Run Javascript File On Node
-  $ node <FILE_NAME>.js
+ 
+ $ node <FILE_NAME>.js
