@@ -1,1 +1,12 @@
+**WEEK 7 - TYPESCRIPT**
+
+**MONDAY**
+
+
+**TUESDAY**
+
+**WEDNESDAY**
+
+**THURSDAY**
+
 
