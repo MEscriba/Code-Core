@@ -25,8 +25,8 @@ if (ukCitizen) {
 ```
 
 ```
-function whichMonths(season) {
-    let monthsInSeason: string;
+function whichMonths(season:string) {
+    let monthsInSeason: string="";
     switch (season) {
         case "Fall":
             monthsInSeason = "September to November";
