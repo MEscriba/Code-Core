@@ -143,3 +143,52 @@ export class G964 {
 }
 ```
 **Week challenges (Thursday)**
+
+In the board game Scrabble2, each tile contains a letter, which is used to spell words, and a score, which is used to determine the value of words.
+
+Write a definition for a class named Tile that represents Scrabble tiles. The instance variables should be a string named letter and an number named value.
+Write a constructor that takes parameters named letter and value and initializes the instance variables.
+Write a method named printTile that prints the instance variables in a reader-friendly format (not the { ... } format way).
+Don't worry you don't have to check if the letter is no more than one String length.
+You can use this Main class to test your code.
+import Tile from './Tile';
+export default class Main {
+  start() {
+    const A = new Tile('A', 10);
+    A.printTile(); // Example of a reader-friendly format above
+    /*
+      ==================
+        Letter: A
+        Value: 10
+      ==================
+    */
+    const W = new Tile('W', '50'); // This should show and error
+  }
+}
+On your index.ts you can now use this to test your solution
+import Main from './Main';
+const main = new Main();
+main.start();
+
+**solution**
+
+```
+export default class Tile {
+  letter: string;
+  value: number;
+
+  constructor(letter: string, value: number) {
+    this.letter = letter;
+    this.value = value;
+  }
+
+  printTile() {
+    console.log(`
+        ===========================
+          Letter: ${this.letter}
+          Value: ${this.value}
+        ===========================
+    `);
+  }
+}
+```
