@@ -372,3 +372,24 @@ Node RPL State
 Run Javascript File On Node
  
  $ node <FILE_NAME>.js
+
+Scripts
+
+  $ npm init --y
+  
+  $ npm install typescript
+  
+  $ npx tsc --init
+  
+  $ npx tsc --w
+  
+Test the project
+
+  $ npm install
+  
+  $ npx tsc --w
+  
+Run File
+
+  $ node <PATH_TO_FILE>.js
+  
