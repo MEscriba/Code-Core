@@ -94,5 +94,52 @@ Warn the sheep in front of the wolf that it is about to be eaten. Remember that 
 
 **Week challenges (Wednesday)**
 
+From Wikipedia:
 
+"A divisibility rule is a shorthand way of determining whether a given integer is divisible by a fixed divisor without performing the division, usually by examining its digits."
+
+When you divide the successive powers of 10 by 13 you get the following remainders of the integer divisions:
+
+1, 10, 9, 12, 3, 4 because:
+
+10 ^ 0 ->  1 (mod 13)
+10 ^ 1 -> 10 (mod 13)
+10 ^ 2 ->  9 (mod 13)
+10 ^ 3 -> 12 (mod 13)
+
+const rem = [1, 10, 9, 12, 3, 4];
+```
+export function process(n: number): number {
+  let reversedNumber: string[] = n.toString().split('').reverse();
+  let index = 0;
+  let result = reversedNumber.reduce((total: number, digit: string) => {
+    if (index > 5) index = 0;
+    return total + Number(digit) * rem[index++];
+  }, 0);
+  if (result === n) return result;
+  return process(result);
+}
+
+export function thirt(n: number): number {
+  return process(n);
+}
+```
+
+Given a positive integer n written as abcd... (a, b, c, d... being digits) and a positive integer p
+
+we want to find a positive integer k, if it exists, such that the sum of the digits of n taken to the successive powers of p is equal to k * n.
+
+```
+export class G964 {
+  public static digPow = (n: number, p: number) => {
+    const sum = n
+      .toString()
+      .split('')
+      .map(Number)
+      .reduce((prev: number, curr: number) => prev + Math.pow(curr, p++), 0);
+    if (sum % n === 0) return sum / n;
+    return -1;
+  };
+}
+```
 **Week challenges (Thursday)**
