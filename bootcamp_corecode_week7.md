@@ -4,15 +4,124 @@
 
 O.P.P. GLOSSARY:
 
-Abstraction:
+**Abstraction:**
 
-Inheritance:
+Abstraction is one of the key concepts of object-oriented programming (OOP) languages. Its main goal is to handle complexity by hiding unnecessary details from the user. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
 
-Polymorphism:
+That’s a very generic concept that’s not limited to object-oriented programming. You can find it everywhere in the real world.
 
-Encapsulation:
+Abstraction in the real world
+I’m a coffee addict. So, when I wake up in the morning, I go into my kitchen, switch on the coffee machine and make coffee. Sounds familiar?
 
-Class:
+Making coffee with a coffee machine is a good example of abstraction.
+
+You need to know how to use your coffee machine to make coffee. You need to provide water and coffee beans, switch it on and select the kind of coffee you want to get.
+
+The thing you don’t need to know is how the coffee machine is working internally to brew a fresh cup of delicious coffee. You don’t need to know the ideal temperature of the water or the amount of ground coffee you need to use.
+
+Someone else worried about that and created a coffee machine that now acts as an abstraction and hides all these details. You just interact with a simple interface that doesn’t require any knowledge about the internal implementation.
+
+You can use the same concept in object-oriented programming languages like Java.
+
+Abstraction in OOP
+
+Objects in an OOP language provide an abstraction that hides the internal implementation details. Similar to the coffee machine in your kitchen, you just need to know which methods of the object are available to call and which input parameters are needed to trigger a specific operation. But you don’t need to understand how this method is implemented and which kinds of actions it has to perform to create the expected result.
+
+Let’s implement the coffee machine example in Java. You do the same in any other object-oriented programming language. The syntax might be a little bit different, but the general concept is the same.
+
+**Inheritance:**
+
+Inheritance in OOP = When a class derives from another class.
+
+The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+
+An inherited class is defined by using the extends keyword.
+
+Let's look at an example:
+
+Example
+
+```
+<?php
+class Fruit {
+  public $name;
+  public $color;
+  public function __construct($name, $color) {
+    $this->name = $name;
+    $this->color = $color;
+  }
+  public function intro() {
+    echo "The fruit is {$this->name} and the color is {$this->color}.";
+  }
+}
+
+// Strawberry is inherited from Fruit
+class Strawberry extends Fruit {
+  public function message() {
+    echo "Am I a fruit or a berry? ";
+  }
+}
+$strawberry = new Strawberry("Strawberry", "red");
+$strawberry->message();
+$strawberry->intro();
+?>
+```
+
+**Polymorphism:**
+
+Polymorphism is the ability to create a class that has more than one form. Or in other words, classes have the same methods but different implementations.
+
+Example
+So, before explaining how polymorphism works, I better show you, how it does not work by example.
+
+Imagine we have two animal classes, one class is called Dog, the other class is called Cat. Both classes should have the same properties and methods.
+
+```
+class Dog {
+  public name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+
+  public makeSound(): void {
+    process.stdout.write('wuff wuff\n');
+  }
+}
+
+class Cat {
+  public name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+
+  public makeSound(): void {
+    process.stdout.write('meow meow\n');
+  }
+}
+
+const pocky: Cat = new Cat('Pocky');
+pocky.makeSound(); // -> meow meow
+
+const toshii: Dog = new Dog('Pocky');
+toshii.makeSound(); // -> wuff wuff
+```
+
+**Encapsulation:**
+
+What does encapsulation mean: In object-oriented computer programming (OOP) languages, the notion of encapsulation (or OOP Encapsulation) refers to the bundling of data, along with the methods that operate on that data, into a single unit. Many programming languages use encapsulation frequently in the form of classes. A class is a program-code-template that allows developers to create an object that has both variables (data) and behaviors (functions or methods). A class is an example of encapsulation in computer science in that it consists of data and methods that have been bundled into a single unit.
+
+Encapsulation may also refer to a mechanism of restricting the direct access to some components of an object, such that users cannot access state values for all of the variables of a particular object. Encapsulation can be used to hide both data members and data functions or methods associated with an instantiated class or object.
+
+Benefits of Encapsulation Programming
+Encapsulation in programming has a few key benefits. These include:
+
+Hiding Data: Users will have no idea how classes are being implemented or stored. All that users will know is that values are being passed and initialized.
+More Flexibility: Enables you to set variables as red or write-only. Examples include: setName(), setAge() or to set variables as write-only then you only need to omit the get methods like getName(), getAge() etc.
+Easy to Reuse: With encapsulation it's easy to change and adapt to new requirements.
+
+**Class:**
 
 Classes enable you to express common object-oriented patterns in a standard way, making features like inheritance more readable and interoperable. In TypeScript, classes are yet another way to define the shape of an object, in addition to describing object types with interfaces and functions.
 
@@ -36,11 +145,40 @@ The constructor is a special function used to create and initialize objects base
 Accessors are a type of function that you use to get or set the value of properties. Properties can be read-only by simply omitting the set accessor in the class, or inaccessible by omitting the get accessor (the property will return undefined if you attempt to access it, even if it's assigned a value during initialization.)
 Methods are functions that define the behaviors or actions that the object can do. You can call these methods to invoke the behavior of the object. You can also define methods that are only accessible from within the class itself and are typically called by other methods in the class to perform a task.
 
-Object:
+**Object:**
 
-Instance:
+in JavaScript, the fundamental way that we group and pass around data is through objects. In TypeScript, we represent those through object types.
 
-Interface:
+As we’ve seen, they can be anonymous:
+```
+function greet(person: { name: string; age: number }) {
+  return "Hello " + person.name;
+}
+```
+**Instance:**
+
+In object-oriented programming (OOP), an instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. The creation of a realized instance is called instantiation. In computing, an instance can take the form of a document type or an element.
+
+what is object-oriented programming
+This image shows an example of the structure and naming in object-oriented programming (OOP).
+Whenever you run a program, it's an instance of that program. In languages that create objects from classes, an object is an instantiation of a class. That is, an object is a member of a given class with specified values rather than variables. For example, in a non-programming context, "bird" could be a class and your pet bird Polly an object of that class.
+
+Class instance and instance variable
+An instance of a class is an object. It is also known as a class object or class instance. As such, instantiation may be referred to as construction.
+
+Whenever values vary from one object to another, they are called instance variables. These variables are specific to a particular instance. A copy of an instance variable is created for every object and won't be shared by other objects. 
+
+**Interface:**
+
+An interface is extremely helpful when dealing with data structures as they’re a very visual representation (albeit so is type, this is typically my preference). It’s completely okay to choose a type for your objects and arrays too.
+
+Nevertheless, let’s uncover some more about Types vs Interfaces in TypeScript so you can make a more informed decision.
+
+I’d recommend using a type instead of an interface when you want to intersect types. Using extends feels a bit more verbose and not as clear to read and I feel this is what the type keyword was made for.
+
+It’s also super easy to just combine more types with type. I find the code is clearer than using extends with intefaces.
+
+Interface are also limited - the type alias can be used for more complex types such as tuples, primitives, unions and other more.
 
 **Access Modifiers:**
 
