@@ -208,7 +208,74 @@ A class may contain at most one constructor declaration. If a class contains no 
 
 excersice inout in terminal
 
+example code
+
+```
+import Input from './Input';
+export class Main {
+  async start() {
+    // Get a single input prompt
+    let input = await Input.getInput('Where are you from?');
+    console.log(input);
+  }
+}
+```
+
+```
+import Input from './Input';
+export class Main {
+  async start() {
+    // Get a form prompt
+    const formChoices = [
+      { name: 'age', message: 'What is your age' },
+      { name: 'lastName', message: 'What is your last name' },
+      { name: 'movie', message: 'What is your favorite movie' },
+    ];
+    let input = await Input.getForm('Personal Information', formChoices);
+    console.log(input);
+  }
+}
+```
+
+```
+import Input from './Input';
+export class Main {
+  async start() {
+    // Get a select prompt
+    const selectChoices = [
+      { option: 1, message: 'Pizza' },
+      { option: 2, message: 'Sandwich' },
+      { option: 3, message: 'Cofee' },
+      { option: 4, message: 'Lasagna' },
+    ];
+    let input = await Input.getSelect('Menu', selectChoices);
+    console.log(input);
+  }
+}
+```
 **WEDNESDAY**
+
+excersice:
+
+Build Tower
+Build a pyramid-shaped tower given a positive integer number of floors. A tower block is represented with "*" character.
+
+```
+export const towerBuilder = (nFloors: number): string[] => {
+  if (nFloors === 1) return ['*'];
+  const tower: string[] = [];
+  const maxNumber = 2 * nFloors - 1;
+  for (let i = 1; i <= nFloors; i++) {
+    tower.push(
+      `${' '.repeat(nFloors - i)}${'*'.repeat(2 * i - 1)}${' '.repeat(
+        nFloors - i
+      )}`
+    );
+  }
+  return tower;
+};
+```
+
 
 **THURSDAY**
 
