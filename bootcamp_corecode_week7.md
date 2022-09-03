@@ -204,8 +204,9 @@ The property assignments. Each statement assigns the value of a parameter to the
 A class may contain at most one constructor declaration. If a class contains no constructor declaration, an automatic constructor is provided.
 
 
-
 **TUESDAY**
+
+excersice inout in terminal
 
 **WEDNESDAY**
 
