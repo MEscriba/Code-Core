@@ -299,4 +299,10 @@ export function meeting(s: string): string {
 
 **THURSDAY**
 
+ Core Challenge.
+ 
+ trained in Scrum Essentials
+ 
+
+[certificado_Scrum_2022_09.pdf](https://github.com/MEscriba/MEscriba/files/9500680/certificado_Scrum_2022_09.pdf)
 
