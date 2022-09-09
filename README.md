@@ -23,6 +23,8 @@ I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doi
 
 **8 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week8.md) TYPESCRIPT**
 
+**9 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week9.md) TYPESCRIPT**
+
 
 
 <!---
