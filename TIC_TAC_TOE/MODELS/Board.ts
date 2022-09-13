@@ -1,4 +1,3 @@
-```
 import Player from './Player';
 
 type BoardValues = -1 | 0 | 1;
@@ -87,4 +86,4 @@ export class Board {
     return `\n============================\n${playerOne.name}: ${this.playerOne}\n${playerTwo.name}: ${this.playerTwo}\n============================\n${displayedBoard}\n`;
   }
 }
-```
+
