@@ -1,4 +1,3 @@
-```
 import { prompt } from 'enquirer';
 export type UserInput = { data: string };
 export type UserFormInput = { data: any };
@@ -73,4 +72,4 @@ export class Input {
     return { data: input.data };
   }
 }
-    ```
+
