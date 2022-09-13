@@ -1,4 +1,3 @@
-```
 import { Board, UserOption } from './Board';
 import { Input, UserInput } from './Input';
 import Player from './Player';
@@ -208,4 +207,4 @@ export default class TicTacToe {
       ========================================`);
   }
 }
-```
+
