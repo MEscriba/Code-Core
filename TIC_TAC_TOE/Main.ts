@@ -1,4 +1,3 @@
-```
 import TicTacToe from './models/TicTacToe';
 import { Input, UserOption } from './models/Input';
 
@@ -35,4 +34,3 @@ export default class Main {
     }
   }
 }
-```
