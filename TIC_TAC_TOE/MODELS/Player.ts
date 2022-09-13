@@ -1,4 +1,3 @@
-```
 export default class Player {
   get name() {
     return this.nikname;
@@ -9,4 +8,4 @@ export default class Player {
   }
   constructor(private nikname: string) {}
 }
-  ```
+
