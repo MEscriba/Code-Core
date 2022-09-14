@@ -6,7 +6,15 @@
 
 **TUESDAY**
 
+[EVERYTHING YOU NEED TO KNOW ABOUT TYPESCRIPT](https://www.youtube.com/watch?v=eCZhz0JCVx0)
 
+**WEDNESDAY**
+
+PAUSE DAY
+
+**THUESDAY**
+
+INTERVIEW PRACTICE
 
 **extras excercises**
 SUM OF PARTS
