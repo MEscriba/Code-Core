@@ -8,6 +8,10 @@
 
 [EVERYTHING YOU NEED TO KNOW ABOUT TYPESCRIPT](https://www.youtube.com/watch?v=eCZhz0JCVx0)
 
+[5 REASON TO USE TYPESCRIPT](https://www.youtube.com/watch?v=BDCjP9VLoPo)
+
+[THE FOUR PILLARS OF OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
+
 **WEDNESDAY**
 
 PAUSE DAY
