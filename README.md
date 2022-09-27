@@ -27,6 +27,9 @@ I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doi
 
 **10 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week10.md) REACT**
 
+**11 [Week challenges](https://github.com/MEscriba/MEscriba/blob/main/bootcamp_corecode_week11.md) NODEJS**
+
+
 
 <!---
 MEscriba/MEscriba is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
