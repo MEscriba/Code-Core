@@ -27,3 +27,21 @@ The component EggList will set a prop called eggs which is an array of your favo
 Loop through the props.eggs to output a unorder list of Easter eggs.
 Each list item should be a component called EasterEgg with a prop name, to render the name in a li tag.
 Each EasterEgg will need a key prop with a unique id. Use the index of the array for now.
+
+```
+import React from 'react';
+
+export const EggList = ({nombre, edad}) => {
+  return (
+    <ul>
+      {eggs.map((egg, index) => {
+        return <EasterEgg name={egg} key={index}/>
+      })}
+    </ul>
+  )
+};
+
+export const EasterEgg = ({name}) => {
+    return <li>{name}</li>
+};
+```
