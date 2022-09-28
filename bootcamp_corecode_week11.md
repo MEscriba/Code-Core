@@ -53,8 +53,11 @@ When it comes to dependencies, in client-side JavaScript development, they have 
 In other words, it has always been the developer's task to ensure that dependencies are satisfied when executing each block of code. Also, ensure that these dependencies are loaded in the correct order.
 As we write more Javascript code in our applications, dependency management becomes more cumbersome.
 
--What are the differences between ESModules and CommonJS modules?
+-What module standards are available in Node.JS?
 
+Node.js has two module systems: CommonJS modules and ECMAScript modules.
+
+-What are the differences between ESModules and CommonJS modules?
 
 CommonJS only allows synchronous loading of modules, while ESM allows both synchronous and asynchronous loading.
 
