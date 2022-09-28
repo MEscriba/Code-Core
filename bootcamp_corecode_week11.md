@@ -2,6 +2,10 @@
 
 **MONDAY**
 
+time to practice
+
+**TUESDAY**
+
 **NODE.JS**
 
 Understanding well what Node.JS is before starting to use it, will make it much easier for us to work with this powerful tool. In this exercise your task is to answer the following questions in your own words:
@@ -73,10 +77,6 @@ External modules: These are, in essence, the third-party packages distributed th
 **excercise node example**
 
 [nodemodule_example](https://github.com/MEscriba/MEscriba/tree/main/EXAMPLE_NODE_MODULES)
-
-
-**TUESDAY**
-
 
 
 **WEDNESDAY**
