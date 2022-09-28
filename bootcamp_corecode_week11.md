@@ -70,6 +70,10 @@ Built-in modules: They are the native modules of the Node.js API. They do not ne
 Local modules: These are the modules written by the developers and form a large part of the application as a whole. As you have already read, they are structured like this in order to be able to be a reusable code.
 External modules: These are, in essence, the third-party packages distributed through npm (although they may come from other repositories). These packages are installed as dependencies and, although they add functionality to the application, they should not be included in the repository since they are not part of the application.
 
+**excercise node example**
+
+[nodemodule_example](https://github.com/MEscriba/MEscriba/tree/main/EXAMPLE_NODE_MODULES)
+
 
 **TUESDAY**
 
