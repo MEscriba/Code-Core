@@ -78,8 +78,43 @@ External modules: These are, in essence, the third-party packages distributed th
 
 [nodemodule_example](https://github.com/MEscriba/MEscriba/tree/main/EXAMPLE_NODE_MODULES)
 
+-What is a Server?
+
+The term server has two meanings in the computer world. The former refers to the computer that makes resources available over a network, and the latter refers to the program running on that computer. Consequently, two server definitions appear:
+
+Definition Server (hardware): A hardware-based server is a physical machine integrated into a computer network on which, in addition to the operating system, one or more software-based servers run. An alternative name for a hardware-based server is "host." In principle, any computer can be used as a "host" with the corresponding server software.
+
+Definition Server (software): A software-based server is a program that provides a special service that other programs called clients can use locally or across a network. The type of service depends on the type of server software. The basis of communication is the client-server model and, as far as data exchange is concerned, service-specific transmission protocols come into play.
+
+
+- Why is a Client?
+
+A client is a computer or software that accesses a server and retrieves special services or data from it. It is the client's task to standardize the requests, transmit them to the server and process the obtained data so that it can be displayed on an output device such as a screen. A client does not perform server tasks, but is simply an intermediate element. Typical clients are web browsers or email clients.
+
 
 **WEDNESDAY**
+
+-What is an API?
+
+APIs are mechanisms that allow two software components to communicate with each other using a set of definitions and protocols. For example, the weather institute's software system contains daily weather data. Your phone's weather app “talks” to this system through APIs and shows you daily weather updates on your phone.
+
+-What is a Protocol?
+
+Protocol in computing is a formal set of standards and norms. These govern both the format and the control of the interaction between the different devices within a network or communication system. The goal is that they can transmit data between them. As a computer consultant we see more details on the subject
+
+-What are the different types of APIs?
+
+APIs are classified both based on their architecture and their scope of use. We have already explored the main types of API architectures, now let's look at the scope of use.
+
+private APIs
+These are internal to a company and are only used to connect systems and data within the company.
+public APIs
+They are open to the public and can be used by anyone. There may or may not be some authorization and cost associated with this type of API.
+Partner API
+They can only be accessed by authorized third-party developers to support business-to-business partnerships.
+Composite APIs
+These combine two or more different APIs to address complex system requirements or behaviors.
+
 
 []()
 
