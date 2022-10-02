@@ -100,7 +100,6 @@ A client is a computer or software that accesses a server and retrieves special 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **WEDNESDAY**
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What is an API?
 
 APIs are mechanisms that allow two software components to communicate with each other using a set of definitions and protocols. For example, the weather institute's software system contains daily weather data. Your phone's weather app “talks” to this system through APIs and shows you daily weather updates on your phone.
@@ -137,9 +136,7 @@ HTTP is an application layer protocol in the seven-layer OSI networking model, w
 
 HTTP is most commonly used with a web browser client (such as Chrome, Safari, or Edge) and a web server running on a computer system located somewhere on the Internet. HTTP supports many other web applications and services as well.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-       
-What is JSON?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------  What is JSON?
 Is JSON the same as a plain Javascript object?
 
 JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
