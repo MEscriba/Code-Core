@@ -1,24 +1,24 @@
-**WEEK 9 - TYPESCRIPT**
+**WEEK 9 - TYPESCRIPT** :zap:
 
 **MONDAY**
 
-[excersice Tic Tac Toe -->link](https://github.com/MEscriba/MEscriba/tree/main/TIC_TAC_TOE) 
+[excersice Tic Tac Toe -->link](https://github.com/MEscriba/MEscriba/tree/main/TIC_TAC_TOE) :fire:
 
 **TUESDAY**
 
-[EVERYTHING YOU NEED TO KNOW ABOUT TYPESCRIPT](https://www.youtube.com/watch?v=eCZhz0JCVx0)
+[EVERYTHING YOU NEED TO KNOW ABOUT TYPESCRIPT](https://www.youtube.com/watch?v=eCZhz0JCVx0) :white_check_mark:
 
-[5 REASON TO USE TYPESCRIPT](https://www.youtube.com/watch?v=BDCjP9VLoPo)
+[5 REASON TO USE TYPESCRIPT](https://www.youtube.com/watch?v=BDCjP9VLoPo) :white_check_mark:
 
-[THE FOUR PILLARS OF OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
+[THE FOUR PILLARS OF OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8) :white_check_mark:
 
 **WEDNESDAY**
 
-PAUSE DAY
+PAUSE DAY :ambulance:
 
 **THUESDAY**
 
-INTERVIEW PRACTICE
+INTERVIEW PRACTICE :sparkles:
 
 **extras excercises**
 SUM OF PARTS
