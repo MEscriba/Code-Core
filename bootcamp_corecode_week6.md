@@ -1,4 +1,4 @@
-**TYPESCRIPT WEEK6**
+**TYPESCRIPT WEEK6** ⬆️
 
 **Week challenges (Monday)**
 
@@ -55,7 +55,7 @@ for (let i = 0; i < 10; i++) {
 
 console.log(randomNumbers);
 ```
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 **Week challenges (Tuesday)**
 
 Complete the square sum function so that it squares each number passed into it and then sums the results together.
@@ -90,7 +90,7 @@ Warn the sheep in front of the wolf that it is about to be eaten. Remember that 
    
    ```
 
-
+---------------------------------------------------------------------------------------------------------------------------------
 
 **Week challenges (Wednesday)**
 
@@ -142,6 +142,9 @@ export class G964 {
   };
 }
 ```
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 **Week challenges (Thursday)**
 
 In the board game Scrabble2, each tile contains a letter, which is used to spell words, and a score, which is used to determine the value of words.
@@ -314,6 +317,7 @@ export default class Rational {
   }
 }
 ```
+---------------------------------------------------------------------------------------------------------------------------------
 
 **EXTRA**
 
