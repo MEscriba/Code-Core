@@ -4,6 +4,6 @@
 
 Work on my project
 
-**Week challenges (Tuesday) **💻
+**Week challenges (Tuesday)**💻
 
 Work on my project
