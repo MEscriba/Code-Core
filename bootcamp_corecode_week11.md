@@ -178,6 +178,7 @@ Delete: To delete a resource, a data for example from our database.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **how to use post man**
+
 :technologist:[Postman - video link](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
 
 Postman only works with REST APIs?
