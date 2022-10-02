@@ -21,6 +21,8 @@ the bottleneck in the entire web application architecture (including traffic thr
 
 Node solves this problem by changing the way a connection to the server is made. Instead of spawning a new OS thread for each connection (and allocating the accompanying memory to it), each connection triggers an execution event within the Node. Node also claims that it will never deadlock, because locks are not allowed and because it does not directly block for I/O calls. Node claims that a server running it can support tens of thousands of concurrent connections.
 
+_______________________________________________________________________________________________________________________________________________________________________
+
 -What is the V8 Javascript Engine?
 
 V8 is the name of the JavaScript engine that powers Google Chrome. It's what takes our JavaScript and runs it while you're browsing with Chrome. V8 provides the runtime environment in which JavaScript runs. The browser provides the DOM and the other APIs of the web platform.
@@ -28,6 +30,8 @@ V8 is the name of the JavaScript engine that powers Google Chrome. It's what tak
 -Is Node.JS really necessary in the Development ecosystem?
 
 Since Node.js uses fewer threads, it uses fewer resources/memory, resulting in faster execution of tasks. So for our purposes, this single-threaded architecture is equivalent to the multithreaded architecture. When one needs to process data-heavy tasks, then it makes much more sense to use multi-threaded languages ​​like Java. But for real-time applications, Node.js is the obvious choice.
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 -What is NVM and Why is it useful for Node.JS developers?
 
@@ -43,6 +47,7 @@ As JavaScript is used more frequently, namespaces (namespaces where the identifi
 
 Taking into account that before the arrival of ES6, Javascript did not natively support the use of modules, programmers managed to develop their own module systems, taking advantage of features of the same language.
 
+_______________________________________________________________________________________________________________________________________________________________________
 
 -Why are Javascript Modules necessary?
 
@@ -57,14 +62,19 @@ When it comes to dependencies, in client-side JavaScript development, they have 
 In other words, it has always been the developer's task to ensure that dependencies are satisfied when executing each block of code. Also, ensure that these dependencies are loaded in the correct order.
 As we write more Javascript code in our applications, dependency management becomes more cumbersome.
 
+_______________________________________________________________________________________________________________________________________________________________________
+
 -What module standards are available in Node.JS?
 
 Node.js has two module systems: CommonJS modules and ECMAScript modules.
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 -What are the differences between ESModules and CommonJS modules?
 
 CommonJS only allows synchronous loading of modules, while ESM allows both synchronous and asynchronous loading.
 
+_______________________________________________________________________________________________________________________________________________________________________
 
 -Which types of modules exist in Node.JS
 
@@ -78,6 +88,8 @@ External modules: These are, in essence, the third-party packages distributed th
 
 [nodemodule_example](https://github.com/MEscriba/MEscriba/tree/main/EXAMPLE_NODE_MODULES)
 
+_______________________________________________________________________________________________________________________________________________________________________
+
 -What is a Server?
 
 The term server has two meanings in the computer world. The former refers to the computer that makes resources available over a network, and the latter refers to the program running on that computer. Consequently, two server definitions appear:
@@ -86,6 +98,7 @@ Definition Server (hardware): A hardware-based server is a physical machine inte
 
 Definition Server (software): A software-based server is a program that provides a special service that other programs called clients can use locally or across a network. The type of service depends on the type of server software. The basis of communication is the client-server model and, as far as data exchange is concerned, service-specific transmission protocols come into play.
 
+_______________________________________________________________________________________________________________________________________________________________________
 
 - Why is a Client?
 
@@ -98,9 +111,13 @@ A client is a computer or software that accesses a server and retrieves special 
 
 APIs are mechanisms that allow two software components to communicate with each other using a set of definitions and protocols. For example, the weather institute's software system contains daily weather data. Your phone's weather app “talks” to this system through APIs and shows you daily weather updates on your phone.
 
+_______________________________________________________________________________________________________________________________________________________________________
+
 -What is a Protocol?
 
 Protocol in computing is a formal set of standards and norms. These govern both the format and the control of the interaction between the different devices within a network or communication system. The goal is that they can transmit data between them. As a computer consultant we see more details on the subject
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 -What are the different types of APIs?
 
@@ -115,9 +132,92 @@ They can only be accessed by authorized third-party developers to support busine
 Composite APIs
 These combine two or more different APIs to address complex system requirements or behaviors.
 
+_______________________________________________________________________________________________________________________________________________________________________
 
-[]()
+What is HTTP?
 
+HTTP stands for Hypertext Transfer Protocol. It’s a formally defined set of rules for communication between a client (the network resource requesting data or services) and a server (the resource that receives and responds to the request).
+
+In other words: If the Internet is the infrastructure connecting web clients and servers, HTTP is the “language” they speak to each other over that connection. This is how we make web pages load and YouTube videos play.
+
+Standardized computer network protocols ensure that hardware and software produced by different vendors can work together reliably. HTTP does this for web communications. The HTTP protocol specifies the rules for resource requests and responses between web clients and the servers.
+
+HTTP is an application layer protocol in the seven-layer OSI networking model, which standardizes the communication functions of telecommunications or computing systems regardless of the underlying internal structure and technology. The definition and ongoing development of this protocol is now the responsibility of an international organization called the Internet Engineering Task Force (IETF).
+
+HTTP is most commonly used with a web browser client (such as Chrome, Safari, or Edge) and a web server running on a computer system located somewhere on the Internet. HTTP supports many other web applications and services as well.
+_______________________________________________________________________________________________________________________________________________________________________
+
+What is JSON?
+Is JSON the same as a plain Javascript object?
+
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+
+JSON is built on two structures:
+
+A collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.
+An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence.
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+What is REST?
+Is REST a programming language, framework, technology, or architecture pattern?
+
+REpresentational State Transfer
+REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server. We will go into what these terms mean and why they are beneficial characteristics for services on the Web.
+
+Separation of Client and Server
+In the REST architectural style, the implementation of the client and the implementation of the server can be done independently without each knowing about the other. This means that the code on the client side can be changed at any time without affecting the operation of the server, and the code on the server side can be changed without affecting the operation of the client.
+
+As long as each side knows what format of messages to send to the other, they can be kept modular and separate. Separating the user interface concerns from the data storage concerns, we improve the flexibility of the interface across platforms and improve scalability by simplifying the server components. Additionally, the separation allows each component the ability to evolve independently.
+
+By using a REST interface, different clients hit the same REST endpoints, perform the same actions, and receive the same responses.
+_______________________________________________________________________________________________________________________________________________________________________
+
+What is a Resource in REST?
+What is a resource identifier?
+
+The key abstraction of information in REST is a resource. Any information that we can name can be a resource. For example, a REST resource can be a document or image, a temporal service, a collection of other resources, or a non-virtual object (e.g., a person).
+The state of the resource, at any particular time, is known as the resource representation.
+The resource representations are consist of:
+the data
+the metadata describing the data
+and the hypermedia links that can help the clients in transition to the next desired state.
+
+REST uses resource identifiers to identify each resource involved in the interactions between the client and the server components.
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+What is an HTTP method?
+What HTTP methods does REST use within its architecture rules?
+Why do we use HTTP methods in REST and how do they relate to resources?
+
+Rest it is based on a protocol that is the one used for web pages, which is HTTP, it is a protocol that has existed for many years and is already consolidated, you do not have to invent or do new things.
+It relies on the basic methods of HTTP, such as:
+Publication: To create new resources.
+Obtain: To obtain a list or a specific resource.
+Put: To modify.
+Patch: To modify a resource that is not a data resource, for example.
+Delete: To delete a resource, a data for example from our database.
+_______________________________________________________________________________________________________________________________________________________________________
+
+**how to use post man**
+[Postman - video link](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+
+Postman only works with REST APIs?
+Is there an alternative to Postman?
+
+Postman not only provides us with an environment to work with APIs, but can also be used to request web pages like a browser. Enter the URL in the address bar and press submit to see the HTML (HyperText Markup Language) response
+
+Postman Alternatives
+SoapUI. By SmartBear. 4.5 (152) ...
+VisualStudioCode. By Microsoft. 4.8 (1,296) ...
+Mockoon. By Mockoon. 4.5 (2) ...
+WSO2 API Manager. By WSO2. 4.4 (29) ...
+Zapper. By Zapier. 4.7 (2,171) ...
+APPSeCONNECT. By InSync Tech-Fin Solutions. 4.8 (110) ...
+crazy. For Locoia. 5.0 (9) ...
+Microsoft Azure. By Microsoft. 4.6 (1,038)
+_______________________________________________________________________________________________________________________________________________________________________
 []()
 
 **THUESDAY**
