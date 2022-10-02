@@ -1,8 +1,10 @@
-**WEEK 8 - TYPESCRIPT**
+**WEEK 8 - TYPESCRIPT** 📝
 
 **MONDAY**
 
-[VIDEO LINK](https://www.youtube.com/watch?v=pTB0EiLXUC8) OOP CONCEPTS
+🚀[VIDEO LINK](https://www.youtube.com/watch?v=pTB0EiLXUC8) OOP CONCEPTS
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **TUESDAY**
 
@@ -54,7 +56,9 @@ CAT.feed('Fish', 0.1)
 DOG.feed('Beef', 0.25)
 ```
 
-[ABSTRACT CLASSES VS INTERFACES](https://www.youtube.com/watch?v=Lnqmde9LP74)
+[ABSTRACT CLASSES VS INTERFACES](https://www.youtube.com/watch?v=Lnqmde9LP74):fire:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **WEDNESDAY**
 
@@ -133,8 +137,11 @@ export class G964 {
 }
 
 ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **THURSDAY**
 
+📝
 Generics
 Description
 We have just learn about generics, an we where creating our own implementation for the Linkedlist structure, but it is incomplete, you task is to finish the missing methods.
