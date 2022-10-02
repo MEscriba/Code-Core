@@ -178,7 +178,7 @@ Delete: To delete a resource, a data for example from our database.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **how to use post man**
-[Postman - video link](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+:technologist:[Postman - video link](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
 
 Postman only works with REST APIs?
 Is there an alternative to Postman?
@@ -195,10 +195,33 @@ APPSeCONNECT. By InSync Tech-Fin Solutions. 4.8 (110) ...
 crazy. For Locoia. 5.0 (9) ...
 Microsoft Azure. By Microsoft. 4.6 (1,038)
 
+How to install Express
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[]()
+:technologist:
+
+Facility
+Assuming you've already installed Node.js, create a directory to contain the app and make it your working directory.
+
+$ mkdir myapp
+$ cd myapp
+Use the npm init command to create a package.json file for the application. For more information on how package.json works, see Specifics of npm’s package.json handling.
+
+$ npm init
+This command requests various items, such as the name and version of the application. For now, just press ENTER to accept the defaults for most of them, with the following exception:
+
+entry point: (index.js)
+Specify app.js or whatever name you want for the main file. If you want it to be index.js, press ENTER to accept the recommended default filename.
+
+Next, install Express to the myapp directory and save it to the dependencies list. For example:
+
+$ npm install express --save
+To temporarily install Express and not add it to the list of dependencies, omit the --save option:
+
+$ npm install express
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **THUESDAY**
 
+[]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
