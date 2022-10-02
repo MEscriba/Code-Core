@@ -12,19 +12,21 @@ time to practice
 
 Understanding well what Node.JS is before starting to use it, will make it much easier for us to work with this powerful tool. In this exercise your task is to answer the following questions in your own words:
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What is Node.JS?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Conceived as an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What problem does Node.JS solve?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Node's stated number one goal is "to provide an easy way to build scalable networking programs."
 the bottleneck in the entire web application architecture (including traffic throughput, processor speed, and memory speed) was the maximum number of concurrent connections a server could handle.
-Node solves this problem by changing the way a connection to the server is made. Instead of spawning a new OS thread for each connection (and allocating the accompanying memory to it), each connection triggers an execution event within the Node. Node also claims that it will never deadlock, because locks are not allowed and because it does not directly block for I/O calls. Node claims that a server running it can support tens of thousands of concurrent connections.
+Node solves this problem by changing the way a connection to the server is made. Instead of spawning a new OS thread for each connection (and allocating the accompanying memory to it), each connection triggers an execution event within the Node. Node also claims that it will never deadlock, because locks are not allowed and because it does not directly block for I/O calls. Node claims that a server running it can support tens of thousands of concurrent connections. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What is the V8 Javascript Engine?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V8 is the name of the JavaScript engine that powers Google Chrome. It's what takes our JavaScript and runs it while you're browsing with Chrome. V8 provides the runtime environment in which JavaScript runs. The browser provides the DOM and the other APIs of the web platform.
 
 -Is Node.JS really necessary in the Development ecosystem?
@@ -33,7 +35,7 @@ Since Node.js uses fewer threads, it uses fewer resources/memory, resulting in f
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What is NVM and Why is it useful for Node.JS developers?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The nvm software allows you to install and manage different versions of NodeJS on one computer, making it easy to work with projects that require different versions.
 
 nvm is a software that we can install to have several different versions of NodeJS on the same computer. Thanks to nvm we can install any version of NodeJS that we need in a project, be it a current version or an old version. It also allows us to exchange the version of NodeJS that we have active at a given moment, among all those that have been installed in the system.
@@ -48,7 +50,7 @@ Taking into account that before the arrival of ES6, Javascript did not natively 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Why are Javascript Modules necessary?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Years ago, the vast majority of applications were developed in isolation. Today, it is the opposite.
 It is common that some of the requirements of a system that is being developed can be implemented using an existing solution as a base.
 The moment an existing component is inserted into a new project, a dependency is created between this project and the component used.
@@ -62,17 +64,17 @@ As we write more Javascript code in our applications, dependency management beco
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What module standards are available in Node.JS?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Node.js has two module systems: CommonJS modules and ECMAScript modules.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What are the differences between ESModules and CommonJS modules?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CommonJS only allows synchronous loading of modules, while ESM allows both synchronous and asynchronous loading.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Which types of modules exist in Node.JS
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 here are 3 types of modules. They all work in a similar way but differ in origin.
 
 Built-in modules: They are the native modules of the Node.js API. They do not need to be installed as they are included by default with Node.js. Some examples are the fs or stream modules. These packages are only updated if you change the version of Node.js.
@@ -85,7 +87,7 @@ External modules: These are, in essence, the third-party packages distributed th
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What is a Server?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The term server has two meanings in the computer world. The former refers to the computer that makes resources available over a network, and the latter refers to the program running on that computer. Consequently, two server definitions appear:
 
 Definition Server (hardware): A hardware-based server is a physical machine integrated into a computer network on which, in addition to the operating system, one or more software-based servers run. An alternative name for a hardware-based server is "host." In principle, any computer can be used as a "host" with the corresponding server software.
@@ -93,7 +95,8 @@ Definition Server (hardware): A hardware-based server is a physical machine inte
 Definition Server (software): A software-based server is a program that provides a special service that other programs called clients can use locally or across a network. The type of service depends on the type of server software. The basis of communication is the client-server model and, as far as data exchange is concerned, service-specific transmission protocols come into play.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-- Why is a Client?
+-Why is a Client?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 A client is a computer or software that accesses a server and retrieves special services or data from it. It is the client's task to standardize the requests, transmit them to the server and process the obtained data so that it can be displayed on an output device such as a screen. A client does not perform server tasks, but is simply an intermediate element. Typical clients are web browsers or email clients.
 
@@ -106,12 +109,12 @@ APIs are mechanisms that allow two software components to communicate with each 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What is a Protocol?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Protocol in computing is a formal set of standards and norms. These govern both the format and the control of the interaction between the different devices within a network or communication system. The goal is that they can transmit data between them. As a computer consultant we see more details on the subject
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -What are the different types of APIs?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 APIs are classified both based on their architecture and their scope of use. We have already explored the main types of API architectures, now let's look at the scope of use.
 
 private APIs
@@ -125,7 +128,7 @@ These combine two or more different APIs to address complex system requirements 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is HTTP?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 HTTP stands for Hypertext Transfer Protocol. It’s a formally defined set of rules for communication between a client (the network resource requesting data or services) and a server (the resource that receives and responds to the request).
 
 In other words: If the Internet is the infrastructure connecting web clients and servers, HTTP is the “language” they speak to each other over that connection. This is how we make web pages load and YouTube videos play.
@@ -138,7 +141,7 @@ HTTP is most commonly used with a web browser client (such as Chrome, Safari, or
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------  What is JSON?
 Is JSON the same as a plain Javascript object?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 
 JSON is built on two structures:
@@ -149,7 +152,7 @@ An ordered list of values. In most languages, this is realized as an array, vect
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is REST?
 Is REST a programming language, framework, technology, or architecture pattern?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 REpresentational State Transfer
 REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server. We will go into what these terms mean and why they are beneficial characteristics for services on the Web.
 
@@ -163,7 +166,7 @@ By using a REST interface, different clients hit the same REST endpoints, perfor
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is a Resource in REST?
 What is a resource identifier?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The key abstraction of information in REST is a resource. Any information that we can name can be a resource. For example, a REST resource can be a document or image, a temporal service, a collection of other resources, or a non-virtual object (e.g., a person).
 The state of the resource, at any particular time, is known as the resource representation.
 The resource representations are consist of:
@@ -177,7 +180,7 @@ REST uses resource identifiers to identify each resource involved in the interac
 What is an HTTP method?
 What HTTP methods does REST use within its architecture rules?
 Why do we use HTTP methods in REST and how do they relate to resources?
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Rest it is based on a protocol that is the one used for web pages, which is HTTP, it is a protocol that has existed for many years and is already consolidated, you do not have to invent or do new things.
 It relies on the basic methods of HTTP, such as:
 Publication: To create new resources.
