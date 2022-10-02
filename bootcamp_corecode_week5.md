@@ -2,20 +2,20 @@
 
 **Week challenges (Monday)**
 
-practice day
+:adhesive_bandage: practice day
 
 **Week challenges (Tuesday)**
 
-practice day
+⚰️ practice day
 
 **Week challenges (Wednesday)**
-Learn about [FP vs OOP](https://www.youtube.com/watch?v=08CWw_VD45w)
-Learn about [Fundamental Concepts of Object Oriented Programming](https://www.youtube.com/watch?v=m_MQYyJpIjg)
-Read bout OOP
+📈 Learn about [FP vs OOP](https://www.youtube.com/watch?v=08CWw_VD45w)
+📈 Learn about [Fundamental Concepts of Object Oriented Programming](https://www.youtube.com/watch?v=m_MQYyJpIjg)
+📈 Read bout OOP
 
 
 **Week challenges (Thursday)**
-how to configure terminal to work with typescript
+👷 how to configure terminal to work with typescript
 
 Generate a tsconfig.json file
 The TypeScript compiler applies default behavior when you compile TypeScript source code. But you can modify the TypeScript compiler options by adding a tsconfig.json file to the root of your TypeScript project folder. This file defines the TypeScript project settings, such as the compiler options and the files that should be included.
