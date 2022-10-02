@@ -1,10 +1,9 @@
-**NODE JS**
+**NODE JS** ⚗️
 
-**MONDAY**
+**Week challenges (Monday)** 💻
 
+Work on my project
 
-**TUESDAY**
+**Week challenges (Tuesday) **💻
 
-**WEDNESDAY**
-
-**THURSDAY**
+Work on my project
