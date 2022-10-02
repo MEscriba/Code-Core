@@ -77,7 +77,7 @@ External modules: These are, in essence, the third-party packages distributed th
 
 **excercise node example**
 
-[nodemodule_example](https://github.com/MEscriba/MEscriba/tree/main/EXAMPLE_NODE_MODULES)
+[nodemodule_example](https://github.com/MEscriba/MEscriba/tree/main/EXAMPLE_NODE_MODULES) 📌
 
 -What is a Server?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
