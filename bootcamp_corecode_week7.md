@@ -1,10 +1,12 @@
-**WEEK 7 - TYPESCRIPT**
+**WEEK 7 - TYPESCRIPT** ⚡️
 
 **MONDAY**
 
 O.P.P. GLOSSARY:
 
 **Abstraction:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 Abstraction is one of the key concepts of object-oriented programming (OOP) languages. Its main goal is to handle complexity by hiding unnecessary details from the user. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
 
@@ -30,6 +32,7 @@ Objects in an OOP language provide an abstraction that hides the internal implem
 Let’s implement the coffee machine example in Java. You do the same in any other object-oriented programming language. The syntax might be a little bit different, but the general concept is the same.
 
 **Inheritance:**
+---------------------------------------------------------------------------------------------------------------------------------
 
 Inheritance in OOP = When a class derives from another class.
 
@@ -68,6 +71,8 @@ $strawberry->intro();
 ```
 
 **Polymorphism:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 Polymorphism is the ability to create a class that has more than one form. Or in other words, classes have the same methods but different implementations.
 
@@ -109,6 +114,8 @@ toshii.makeSound(); // -> wuff wuff
 ```
 
 **Encapsulation:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 What does encapsulation mean: In object-oriented computer programming (OOP) languages, the notion of encapsulation (or OOP Encapsulation) refers to the bundling of data, along with the methods that operate on that data, into a single unit. Many programming languages use encapsulation frequently in the form of classes. A class is a program-code-template that allows developers to create an object that has both variables (data) and behaviors (functions or methods). A class is an example of encapsulation in computer science in that it consists of data and methods that have been bundled into a single unit.
 
@@ -122,6 +129,8 @@ More Flexibility: Enables you to set variables as red or write-only. Examples in
 Easy to Reuse: With encapsulation it's easy to change and adapt to new requirements.
 
 **Class:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 Classes enable you to express common object-oriented patterns in a standard way, making features like inheritance more readable and interoperable. In TypeScript, classes are yet another way to define the shape of an object, in addition to describing object types with interfaces and functions.
 
@@ -146,6 +155,8 @@ Accessors are a type of function that you use to get or set the value of propert
 Methods are functions that define the behaviors or actions that the object can do. You can call these methods to invoke the behavior of the object. You can also define methods that are only accessible from within the class itself and are typically called by other methods in the class to perform a task.
 
 **Object:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 in JavaScript, the fundamental way that we group and pass around data is through objects. In TypeScript, we represent those through object types.
 
@@ -156,6 +167,8 @@ function greet(person: { name: string; age: number }) {
 }
 ```
 **Instance:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 In object-oriented programming (OOP), an instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. The creation of a realized instance is called instantiation. In computing, an instance can take the form of a document type or an element.
 
@@ -169,6 +182,8 @@ An instance of a class is an object. It is also known as a class object or class
 Whenever values vary from one object to another, they are called instance variables. These variables are specific to a particular instance. A copy of an instance variable is created for every object and won't be shared by other objects. 
 
 **Interface:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 An interface is extremely helpful when dealing with data structures as they’re a very visual representation (albeit so is type, this is typically my preference). It’s completely okay to choose a type for your objects and arrays too.
 
@@ -181,6 +196,8 @@ It’s also super easy to just combine more types with type. I find the code is 
 Interface are also limited - the type alias can be used for more complex types such as tuples, primitives, unions and other more.
 
 **Access Modifiers:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 Define the accessors
 While you can access the class properties directly (they're public, by default), TypeScript supports getters/setters as a way of intercepting access to a property. This gives you finer-grained control over how a member is accessed on each object.
@@ -188,6 +205,8 @@ While you can access the class properties directly (they're public, by default),
 To set or return the value of the object's members from code, you must define get and set accessors in the class.
 
 **Constructors:**
+---------------------------------------------------------------------------------------------------------------------------------
+
 
 Classes in TypeScript create two separate types: the instance type, which defines what members an instance of a class has, and the constructor function type, which defines what members the class constructor function has. The constructor function type is also known as the "static side" type because it includes static members of the class.
 
@@ -203,6 +222,7 @@ The parameter names can be different from the property names. Keep in mind that 
 The property assignments. Each statement assigns the value of a parameter to the value of a property. To indicate that you're accessing a member of the class (in this case, the property), apply the this. keyword.
 A class may contain at most one constructor declaration. If a class contains no constructor declaration, an automatic constructor is provided.
 
+---------------------------------------------------------------------------------------------------------------------------------
 
 **TUESDAY**
 
@@ -253,6 +273,8 @@ export class Main {
   }
 }
 ```
+---------------------------------------------------------------------------------------------------------------------------------
+
 **WEDNESDAY**
 
 excersice:
@@ -295,6 +317,7 @@ export function meeting(s: string): string {
           .join('');
 }
 ```
+---------------------------------------------------------------------------------------------------------------------------------
 
 
 **THURSDAY**
@@ -304,5 +327,5 @@ export function meeting(s: string): string {
  trained in Scrum Essentials
  
 
-[certificado_Scrum_2022_09.pdf](https://github.com/MEscriba/MEscriba/files/9500680/certificado_Scrum_2022_09.pdf)
+[certificado_Scrum_2022_09.pdf](https://github.com/MEscriba/MEscriba/files/9500680/certificado_Scrum_2022_09.pdf):white_check_mark:
 
