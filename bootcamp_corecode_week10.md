@@ -1,18 +1,18 @@
-**WEEK 10 - REACT**
+**WEEK 10 - REACT** 🚧
 
 **MONDAY**
 
-TIME TO REVIEW, AND FINISH EXERCISES
+TIME TO REVIEW, AND FINISH EXERCISES 🔖
 
 **TUESDAY**
 
-TIME TO REVIEW, AND FINISH EXERCISES
+TIME TO REVIEW, AND FINISH EXERCISES 🎉
 
 **WEDNESDAY**
 
-[WHAT IS REACT - VIDEO](https://www.youtube.com/watch?v=N3AkSS5hXMA)
+[WHAT IS REACT - VIDEO](https://www.youtube.com/watch?v=N3AkSS5hXMA) 📌
 
-[REACT IN 30 MINUTES](https://www.youtube.com/watch?v=hQAHSlTtcmY)
+[REACT IN 30 MINUTES](https://www.youtube.com/watch?v=hQAHSlTtcmY) 📌
 
 **THUESDAY**
 
