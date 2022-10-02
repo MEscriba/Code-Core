@@ -3,13 +3,11 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **MONDAY**
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 time to practice
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **TUESDAY**
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **NODE.JS**
 
 Understanding well what Node.JS is before starting to use it, will make it much easier for us to work with this powerful tool. In this exercise your task is to answer the following questions in your own words:
@@ -24,7 +22,6 @@ Node's stated number one goal is "to provide an easy way to build scalable netwo
 the bottleneck in the entire web application architecture (including traffic throughput, processor speed, and memory speed) was the maximum number of concurrent connections a server could handle.
 
 Node solves this problem by changing the way a connection to the server is made. Instead of spawning a new OS thread for each connection (and allocating the accompanying memory to it), each connection triggers an execution event within the Node. Node also claims that it will never deadlock, because locks are not allowed and because it does not directly block for I/O calls. Node claims that a server running it can support tens of thousands of concurrent connections.
-
 _______________________________________________________________________________________________________________________________________________________________________
 -What is the V8 Javascript Engine?
 
