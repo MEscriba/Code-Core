@@ -2,6 +2,8 @@
 
 I'm going to be uploading to my readme the core-code bootcamp tasks that I'm doing!!!
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Week challenges (Tuesday)**
 
 1-The difference between compiled and interpreted languages is contained in the way they interact with the computer.
@@ -10,7 +12,7 @@ In a compiled language, the target machine can read the source code without the 
 2- The Java language is both compiled and interpreted.
    VIEWED VIDEOS:
    
-   [Video Source](https://www.youtube.com/watch?v=G81hoJTvQVg)
+ :technologist:  [Video Source](https://www.youtube.com/watch?v=G81hoJTvQVg)
    
 
 3-  pseudocode excersice
@@ -23,8 +25,9 @@ In a compiled language, the target machine can read the source code without the 
 
 4- I learn about low-level and high-level lenguages with:
 
-[Video Source](https://www.youtube.com/watch?v=bUWCD45qniA)
+:technologist:[Video Source](https://www.youtube.com/watch?v=bUWCD45qniA)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Week challenges (Wednesday)** 
 
@@ -91,6 +94,9 @@ Create a program that displays your name
               la $a0, message
               syscall
 ```
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Week challenges (Thursday)**
 
 1- print numbers - excersice
@@ -132,7 +138,7 @@ else {
 }
 ```
 
-**link a [JS Bin](https://jsbin.com/mafowaceyi/edit?js,console)**
+:technologist:**link a [JS Bin](https://jsbin.com/mafowaceyi/edit?js,console)**
 
 
 
